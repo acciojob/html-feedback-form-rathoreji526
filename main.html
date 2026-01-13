@@ -8,27 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method "POST">
+	<form method ="POST">
 		
 	
 	<h1>Feedback Form</h1>
 		<label for="name">Name:</label><br>
-	<input id = "name" type = "Text" minlength="3" maxlength="50" placeholder="alien" required>
+	<input id = "name" name = "name" type = "Text" minlength="3" maxlength="50" placeholder="alien" required>
 		<br><br>
 		<label for="portfolio">Portfolio:</label><br>
-	<input id = "portfolio" type = "URL" placeholder="www.xyz.com" required>
+	<input id = "portfolio" name = "portfolio" type = "URL" placeholder="www.xyz.com" required>
 		<br><br>
 		<label for="favColor">Favorite Color:</label><br>
-	<input id = "favColor" type = "Color">
+	<input id = "favColor" name = "favColor" type = "Color">
 		<br><br>
 		<label for="likeness">Likeness:</label><br>
-	<input id = "likeness" type = "Range" min="1" max="100">
+	<input id = "likeness" name = "likeness" type = "Range" min="1" max="100">
 		<br><br>
 		<button type="submit">Submit</button>
+
+		 </form>
 		
     <script type="text/javascript" src="./script.js">
 
- </form>
+
 </script>
 
 </body>
